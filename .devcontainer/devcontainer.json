@@ -1,11 +1,6 @@
 {
     "name": "Gitlab Codespace",
     "image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
-    "features": {
-        "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {
-            "shallowClone": true
-        }
-    },
-    "onCreateCommand": "brew install glab",
-    "postCreateCommand": "rm -fR ."
+    "onCreateCommand": "apt-get install -y gitlab-cli",
+    "postCreateCommand": "rm -fR /workspaces/codespaces-gitlab/*"
 }
