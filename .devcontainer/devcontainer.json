@@ -6,5 +6,6 @@
             "shallowClone": true
         }
     },
-    "onCreateCommand": "brew install glab"
+    "onCreateCommand": "brew install glab",
+    "postCreateCommand": "rm -fR ."
 }

@@ -1,4 +1,4 @@
 # Gitlab enabled codespace
-Base codespace to be used as a bridget to link to a gitlab repository
+Codespace template to be used to instantiate containers to be linked to a Gitlab repository
 
 
