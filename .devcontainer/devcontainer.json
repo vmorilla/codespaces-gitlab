@@ -1,6 +1,6 @@
 {
     "name": "Gitlab Codespace",
     "image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
-    "onCreateCommand": "apt-get install -y gitlab-cli",
-    "postCreateCommand": "rm -fR /workspaces/codespaces-gitlab/*"
+    "onCreateCommand": "sudo apt-get install -y gitlab-cli",
+    "postCreateCommand": "sudo rm -fR /workspaces/codespaces-gitlab/*"
 }
